@@ -5,7 +5,7 @@
 #
 
 #
-# Copyright 2017, Cody Mello.
+# Copyright 2018, Cody Mello.
 #
 
 #
@@ -22,8 +22,7 @@ ESLINT		= ./node_modules/.bin/eslint
 # Files
 #
 
-JS_FILES	:= $(shell find lib test -name '*.js') \
-	bin/mmreq bin/mmsh
+JS_FILES	:= $(shell find lib test -name '*.js')
 
 #
 # Repo-specific targets
